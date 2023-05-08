@@ -81,12 +81,6 @@ form input[type="text"]:focus {
   outline: 0;
 }
 
-/* .edit-input {
-  width: calc(100% - 1rem);
-  border: 1px solid salmon;
-  border-radius: calc(0.1 * 50px);
-} */
-
 form input[type="text"]::placeholder {
   color: #5b5b5b;
 }
