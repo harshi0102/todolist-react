@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -52,13 +55,12 @@
   border-radius: 0.35rem;
 }
 
-
 form {
   display: flex;
   justify-content: space-around;
   font-size: 1rem;
   border-radius: calc(0.1 * 100px);
-  box-shadow: 0px 4px 14px 0px rgba(70, 70, 70, 0.15);
+  box-shadow: 0 4px 14px 0 rgba(70, 70, 70, 0.15);
 }
 
 .edit-input,
